@@ -1,0 +1,495 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+/*	outline: 3px solid	green;*/
+
+}
+
+body {
+	background-image: 'url(' + bg + ')';
+}
+
+
+.main {
+	display: flex;
+	align-items: center;
+	margin-top: 7%;
+}
+
+.main-logo {
+	height: 10vh;
+	margin-left: 5px;
+}
+
+.coin {
+	width: 33vw;
+	height: 5vh;
+	background-color: #F0E45D;
+	border-radius: 25px;
+	margin-left: 20vw;
+	align-items: center;
+	display: flex;
+}
+.wallet {
+	height: 3vh;
+}
+
+.card-event-container {
+	width: 100%;
+	overflow: hidden;
+}
+
+.number {
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+.marquee {
+  animation: marquee 10s linear infinite;
+  height: 17px;
+  width: 100%; 
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%); /* Starting position of the image */
+  }
+  100% {
+    transform: translateX(-100%); /* Ending position of the image */
+  }
+}
+
+.event-header {
+	display: flex;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 15px;
+}
+
+.event-head {
+	padding-right: 30%;
+}
+
+.frame {
+	margin-left: 10%;
+}
+
+.game-icons {
+	display: flex;
+	margin-top: 10px;
+}
+
+.event-container {
+	display: flex;
+	width: 120vw;
+	animation: moveRight 10s linear infinite;
+  }
+  
+  @keyframes moveRight {
+	0% {
+	  transform: translateX(100%);
+	}
+	100% {
+	  transform: translateX(0%);
+	}
+  }
+  
+.name {
+	width: 40%;
+	height: 15vh;
+	margin: 10px;
+	background-color: #0C1423;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.lowerbanner {
+	height: 15px;
+	width: 100%;
+	background-color: #F0E45D;
+	margin-top: -10px;
+	-webkit-border-bottom-right-radius: 25px;
+	-webkit-border-bottom-left-radius: 25px;
+	-moz-border-radius-bottomright: 25px;
+	-moz-border-radius-bottomleft: 25px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.7rem;
+	font-weight: bold;
+}
+
+
+.names {
+	background-color: #F0E45D;
+	width: 25vw;
+	height: 3vh;
+	border-radius: 53px 0px 108px 0px;
+	-moz-border-radius: 53px 0px 108px 0px;
+	-webkit-border-radius: 53px 0px 108px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: -16px;
+}
+
+.title-name {
+	font-size: 0.8em;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: -5px;
+}
+
+.top-container {
+	display: flex;
+	align-items: center;
+}
+
+.box-date {
+	color: white;
+	margin-left: 17px;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.winner-names-container {
+	width: 25vw;
+	padding-left: 16px;
+	text-align: justify;
+	min-height: 10vh;
+	max-height: 10vh;
+	color: white;
+	max-width: 15vw;
+	min-width: 15vw;
+
+}
+
+.winner-names {
+	font-size: 13px;
+}
+
+.winner {
+	font-size: 12px;
+}
+
+.winner-names-box{
+	min-height: 7vh;
+	margin-top: -7px;
+}
+
+/* ONE V ONE BOX */
+
+.one-v-one-box {
+	display: flex;
+	justify-content: center;
+
+}
+
+.one-v-one-container {
+	display: flex;
+	justify-content: center;
+	width: 90vw;
+	gap: 4px;
+}
+
+.logo-container {
+	display: flex;
+	align-items: center;
+
+	}
+
+	.logo-container div {
+		margin-left: 20px;
+	}
+
+	.games-container {
+		background-color: #413C58;
+		width: 90vw;
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+	}
+
+	.player-cards-container {
+		background-color: #0C1423;
+		height: 30vh;
+		width: 90vw;
+		border: 2px solid #7A71A1;
+	}
+
+	.player-cards-container1 {
+		background-color: #0C1423;
+		height: 30vh;
+		width: 90vw;
+		-webkit-border-bottom-right-radius: 15px;
+		-webkit-border-bottom-left-radius: 15px;
+		-moz-border-radius-bottomright: 15px;
+		-moz-border-radius-bottomleft: 15px;
+		border-bottom-right-radius: 15px;
+		border-bottom-left-radius: 15px;
+		border: 2px solid #7A71A1;
+	}
+
+	.per-game-text {
+		font-style: italic;
+		margin-left: 20px;
+		font-size: 0.9em;
+
+	}
+
+	.date-played {
+		font-style: italic;
+		margin-left: 130px;
+		padding-top: 10px;
+		font-size: .7em;
+	}
+
+	.top-heading {
+		display: flex;
+		align-items: center;
+		padding-top: 12px;
+	}
+
+	.tiger-arena-text {
+		font-size: 1em;
+		font-style: italic;
+		font-weight: bold;
+	}
+
+	/* player box */
+
+
+
+	.red-player {
+		width: 38vw;
+		height: 10vh;
+		background-color: #E1411D;
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.blue-player {
+		background-color: #003BAC!important;
+		width: 38vw;
+		height: 10vh;
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+	}
+
+	.vs-text {
+		font-size: 15px;
+		font-weight: bold;
+		font-style: italic;
+	}
+
+	.red-player p,
+	.blue-player p {
+	  margin: 0;
+	  line-height: 1.2;
+	  font-style: italic;
+	}
+
+	.betOn-text {
+		font-size: 12px;
+	}
+
+	.player-names-container {
+		max-width: 90px;
+	}
+
+	.players {
+		font-size: 14px;
+		font-weight: bold;
+	}
+
+	/* ODDS	*/
+
+	.odds-container {
+		gap: 100px;
+		font-size: 11px;
+		font-weight: bold;
+		font-style: italic;
+		margin-top: 2px;
+	}
+
+	.view-match-text {
+		color: #F0E45D;
+		font-style: italic;
+		font-size: 14px;
+	}
+
+
+	/* PER GAME _ PICK ONE PHOTO */
+
+	.pergame-pick1-container {
+		gap: 3px;
+	}
+
+	.per-game-photo {
+		height: 30vh;
+		width: 45vw;
+		background: rgb(122,113,161);
+		background: linear-gradient(90deg, rgba(122,113,161,1) -25%, rgba(65,60,88,1) 80%);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+		border: 2px solid #7A71A1;
+	}
+
+	.per-game-photo > h1 {
+		font-size: 25px;
+		font-style: italic;
+		color: #F0E45D;
+		font-weight: bold;
+	}
+
+	.per-game-photo > p {
+		font-size: 15px;
+		line-height: 15px;
+	}
+
+	.pick1-photo {
+		height: 30vh;
+		width: 45vw;
+		background: rgb(122,113,161);
+		background: linear-gradient(90deg, rgba(122,113,161,1) -25%, rgba(65,60,88,1) 80%);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+		border: 2px solid #7A71A1;
+	}
+
+	.pick1-text {
+		font-size: 15px;
+		line-height: 15px;
+	}
+
+	.pick1-photo > h1 {
+		font-size: 25px;
+		font-style: italic;
+		color: #F0E45D;
+		font-weight: bold;
+	}
+
+	/* NUMBER GAMES CONTAINER */
+
+	.number-games-container {
+		background-color: #595378;
+		width: 340px;
+		height: 140px;
+		border-radius: 15px;
+		border: 2px solid #7A71A1;
+	}
+	.number-games-text {
+		background-color: #595378;
+		width: 60%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-left: 10px;
+	}
+
+	.number-games-text > h1 {
+		color: #F0E45D;
+		font-weight: bold;
+		font-style: italic;
+		font-size: 27px;
+	}
+
+	.number-games-text > p {
+		font-size: 15px;
+		line-height: 16px;
+	}
+
+	/* SPECIAL EVENTS */
+
+	.special-events-header {
+		margin-right: 130px;
+		font-style: italic;
+		padding-left: 10px;
+	}
+
+	.view-all-text {
+		color: #F0E45D;
+		font-weight: bold;
+		font-size: 13px;
+	}
+
+	/* SPECTRAL FURY TEXT */
+
+	.fury-text {
+		font-size: 13px;
+		margin-left: 20px;
+		margin-top: 5px;
+	}
+
+	.after-photo-text {
+		margin-left: 20px;
+		width: 240px;
+		font-size: 15px;
+		margin-top: -20px;
+		line-height: 14px;
+	}
+
+	.name-span {
+		font-weight: bold;
+	}
+
+	.footer-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-text > p {
+  margin-bottom: -5px;
+  font-size: 12px;
+}
+
+	/* PER GAME CSS START */
+
+	.select-event-headline {
+		font-weight: bold;
+	}
+	.event-card {
+		border-radius: 15px;
+		background: rgb(122,113,161);
+		background: linear-gradient(90deg, rgba(122,113,161,1) -25%, rgba(65,60,88,1) 80%);
+
+	}
+
+	.event-card-text {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-left: -40px;
+		color: #F0E45D;
+	}
