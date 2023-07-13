@@ -5,7 +5,7 @@ const OneVOne = ({ abilities }) => {
 
     <>
 
-      <div className="text-center one-v-one-container">
+      {/* <div className="text-center one-v-one-container">
         <div className="red-player">
           <div className="player-names-container">
 
@@ -25,7 +25,7 @@ const OneVOne = ({ abilities }) => {
 
           </div>
         </div>
-      </div>
+      </div> */}
 
     </>
   );
